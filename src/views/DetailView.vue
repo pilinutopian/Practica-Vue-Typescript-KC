@@ -1,7 +1,6 @@
 <template>
     <div class="body">
 
-        <!-- <h1>Info detallada</h1> -->
         <div class="loading" v-if="isLoading">Loading...</div>
         <div class="product" v-else>
             <div class="slider">

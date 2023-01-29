@@ -16,9 +16,7 @@
         </div>
         <div class="logout">
             <button @click="logout" >
-            <!-- <button @click="logout" v-if="logedIn"> -->
-                Log out
-                <!-- <span>Log out icon</span> -->
+                Log out           
             </button>
         </div>
     </nav>
