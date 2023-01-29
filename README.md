@@ -1,4 +1,4 @@
-# Práctica Vue & TypeScript
+# Práctica Vue & TypeScript KC
 
 ## Project setup
 
@@ -26,7 +26,9 @@ npm run lint
 
 ### Test User and Password:
 
+Usuarios de prueba
+
 ```
-user: maria@mail.com
-password: 12345
+- user: maria@mail.com
+- password: 12345
 ```
