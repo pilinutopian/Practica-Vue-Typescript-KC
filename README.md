@@ -24,9 +24,9 @@ npm run build
 npm run lint
 ```
 
-### Test User and Password:
+### Test User and Password
 
-Usuarios de prueba
+Ejemplo usuario de prueba:
 
 ```
 - user: maria@mail.com
