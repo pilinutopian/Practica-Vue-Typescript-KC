@@ -58,16 +58,18 @@ export default defineComponent({
 <style scoped>
 .login-box {
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;;
     height: 150px;
     width: 300px;
-    border: 2px solid rgb(120, 7, 212);
+    border: 2px solid rgb(250, 205, 81);
     padding: 100px 0 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 30px;
     align-items: center;
+    background-color:rgba(250, 250, 250, 0.897);
 }
 
 input {

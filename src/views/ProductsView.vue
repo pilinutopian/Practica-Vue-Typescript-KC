@@ -62,13 +62,14 @@ button:hover {
 .search {
     display: flex;
     justify-content: center;
-    padding: 3rem 0 3rem 0;
+    padding: 1rem 0 1rem 0;
 }
 
 .search input {
     width: 50%;
 }
 .product-list {
+    background-color: rgb(250, 250, 243);
     max-width: 100%;
     margin: auto;
     display: grid;
