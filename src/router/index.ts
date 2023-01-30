@@ -16,7 +16,6 @@ const routes: Array<RouteRecordRaw> = [
     path: '/products',
     name: 'products',
     beforeEnter: [haveAuthGuard],
-    // component: () => import(/* webpackChunkName: "products" */ '../views/ProductsView.vue')
     component: ProductsView,
   },
   {
