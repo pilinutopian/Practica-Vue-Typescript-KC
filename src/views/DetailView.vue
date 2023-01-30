@@ -62,11 +62,9 @@ export default defineComponent({
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
 }
 
 .slider {
-    /* height: 20rem; */
     position: relative;
     transform: translateZ(0);
     height: auto;
@@ -89,7 +87,6 @@ export default defineComponent({
     background: rgb(178, 164, 192);
 }
 .slider-content {
-    /* height: 20rem; */
     background-position: center;
     scroll-snap-align: center;
 }
@@ -99,7 +96,6 @@ export default defineComponent({
 }
 
 .product-info {
-    /* width: 80%; */
     padding: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;

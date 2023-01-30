@@ -17,7 +17,6 @@ import { defineComponent, PropType } from 'vue';
 import { User } from '@/models/user';
 
 export default defineComponent({
-    // name: 'UserProfile',
     props: {
         user: {
             type: Object as PropType<User>,

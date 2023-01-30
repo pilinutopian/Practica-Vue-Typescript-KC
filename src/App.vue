@@ -6,13 +6,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import NavBar from './components/NavBar.vue';
-// import HomeView from './views/HomeView.vue'
 
 export default defineComponent({
   name: 'AppComponent',
   components: {
     NavBar,
-    // HomeView,
   }
 })
 </script>
