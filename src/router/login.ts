@@ -9,7 +9,7 @@ const logIn = async (email: string, password: string) => {
     const response = await axios.post('https://api.escuelajs.co/api/v1/auth/login', data)
     localStorage.setItem('accessToken', response.data.access_token)
     
-    console.log('Se ha guardado el token:', response.data.access_token )
+    console.log('Token has been saved', response.data.access_token )
 }
 
 export default logIn

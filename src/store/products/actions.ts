@@ -8,7 +8,7 @@ import { IProductsState } from "./state";
  
 
  const actions: ActionTree<IProductsState, IState> = {
-    // Obtener todos los productos
+    // Obtener los productos
     async fetchProducts({commit}) {
         commit("setIsLoading", true);
 
@@ -18,7 +18,7 @@ import { IProductsState } from "./state";
         commit('setProducts', data)
     },
 
-    // Obtener un producto por Id
+    // Obtener producto por Id
     async fetchProductById({commit}, productId: number) {
         commit('setIsLoading', true);
 

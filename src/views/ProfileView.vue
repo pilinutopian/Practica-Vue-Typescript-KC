@@ -14,7 +14,6 @@ import UserProfile from '@/components/UserProfile.vue';
 import user from '@/store/user';
 import useUser from '@/composables/useUser';
 
-// import { useRouter } from 'vue-router';
 
 export default defineComponent({
     name: 'ProfileView',
@@ -23,7 +22,6 @@ export default defineComponent({
     },
     setup() {
         const { user, isLoading, fetchUser } = useUser();
-        // const router = useRouter()
         fetchUser();
         return {
             user,
